@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <h1>Hello repository!</h1>
-    
-    <script src="./js/main.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Index | Expenses chart component</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <main class="main-container">
+            <div class="balance">
+                <div>
+                    <p class="balance__title">My balance</p>
+                    <p class="balance__total">$921.48</p>
+                </div>
+                <img class="balance__logo" src="./assets/img/logo.svg" alt="logo">
+            </div>
+            <div class="chart">
+                <h1 class="chart__title">Spending - Last 7 days</h1>
+                <div class="chart__bars-container">
+                    <!-- Inicio codigo a insertar en js -->
+                    <div class="chart__bar">
+                        <div class="chart__bar--label">$35.20</div>
+                        <div class="chart__bar--day">mon</div>
+                    </div>
+                    <!-- Fin codigo a insertar en js -->
+                </div>
+                <div class="chart__analitics">
+                    <div>
+                        <p class="chart__total">Total this month</p>
+                        <p class="chart__total-value">$478.33</p>
+                    </div>
+                    <div>
+                        <p class="chart__porcentage">+2.4%</p>
+                        <p class="chart__period">from last month</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="./js/main.js"></script>
+    </body>
 </html>
