@@ -149,10 +149,6 @@ body{
     text-align: center;
 }
 
-
-
-
-
 @media (min-width: 600px){
     .main-container{
         width: 540px;
